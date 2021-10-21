@@ -1,0 +1,54 @@
+.task-container{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    align-items: center;
+    height: 80px;
+
+    .done-check-box{
+        flex-basis: 60px;
+        height: 25px;
+    }
+
+    .task-name{
+        flex-grow: 1;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .btn-detail {
+        flex-basis: 110px;
+        margin: 0 20px;
+        padding: 10px;
+        width: 70px;
+        background-color: #00bcd4;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .btn-remove {
+        flex-basis: 110px;
+        margin: 0 20px;
+        padding: 10px;
+        width: 70px;
+        background-color: #d9534f;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.form-container{
+    padding: 30px;
+    border: 1px solid black;
+    border-top: 0px;
+}

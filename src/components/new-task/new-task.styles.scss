@@ -1,0 +1,21 @@
+.new-task-container{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+
+    .new-task-heading{
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 768px){
+    .new-task-container{
+        flex: 0 0 40%;
+        max-width: 40%;
+        border-right: 1px solid;
+    }
+}

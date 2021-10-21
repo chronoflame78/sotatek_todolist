@@ -1,0 +1,7 @@
+.container {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
